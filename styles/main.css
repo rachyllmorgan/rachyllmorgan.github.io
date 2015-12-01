@@ -13,7 +13,6 @@ body {
   top: 40px;
   width: 100%;
   height: 500px;
-  background: url("https://images.unsplash.com/reserve/6HJtLkJSDqjqlE2NipEu_macbook.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=44100217df531765e155549ce3e11a43") no-repeat transparent;
   background-size: 100%;
   background-position: 10% 20%;
   text-align: center; }
@@ -55,7 +54,7 @@ footer {
 /* Media Queries */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   #project_boxes {
-    margin: 5em auto; }
+    margin: 25em auto; }
     #project_boxes .section_header {
       font-family: Bodini; }
     #project_boxes img {
@@ -63,7 +62,7 @@ footer {
       width: 100px; } }
 @media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
   #project_boxes {
-    margin: 5em auto; }
+    margin: 25em auto; }
     #project_boxes .section_header {
       font-family: Bodini; }
     #project_boxes img {
