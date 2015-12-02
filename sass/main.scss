@@ -4,24 +4,92 @@ body {
   color: orange; 
   border: 3em ridge orange;
   border-radius: 4em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .name_header {
-	margin: 0% 30% 5% 30%;
-  //font-family: Bodini;
   text-align: center; 
 }
 
 .project_links {
 	text-align: center;
-	padding: auto 5%;
+	margin-top: 2em;
+	padding: 3%;
+
+	.each_project {
+		display: inline;
 
 		a {
 			color: orange;
 			text-decoration: none;
 		}
+	}
 }
+
+div.beerTynder_desc {
+	display: none;
+	text-align: center;
+	border: 2px dotted orange;
+	margin-top: 1em;
+}
+
+div.openmicnight_desc {
+	display: none;
+	text-align: center;
+	border: 2px dotted orange;
+	margin-top: 1em;
+}
+
+div.downthemlbs_desc {
+	display: none;
+	text-align: center;
+	border: 2px dotted orange;
+	margin-top: 1em;
+}
+
+.BeerTynder:hover div.beerTynder_desc {
+	display: block;
+/*
+	.OpenMicNight {
+		visibility: hidden;
+		display: inline;
+	}
+	.DownThemLBs {
+		visibility: hidden;
+		display: inline;
+	}
+	*/
+}
+
+.OpenMicNight:hover div.openmicnight_desc {
+	display: block;
+/*
+	.BeerTynder {
+		visibility: hidden;
+		display: inline;
+	}
+	.DownThemLBs {
+		visibility: hidden;
+		display: inline;
+	}
+	*/
+}
+
+.DownThemLBs:hover div.downthemlbs_desc {
+	display: block;
+/*
+	.OpenMicNight {
+		visibility: hidden;
+		display: inline;
+	}
+	.BeerTynder {
+		visibility: hidden;
+		display: inline;
+	}
+	*/
+}
+
 
 .link_contacts {
 	text-align: center;
@@ -39,7 +107,8 @@ footer {
 
 /* Media Queries */
 @media screen and (max-device-width : 575px) {
-	.project_links > img{
+	.each_project a img {
 		display: block;
+		margin: 5% auto;
 	}
 }
