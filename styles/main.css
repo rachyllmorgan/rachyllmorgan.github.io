@@ -1,5 +1,6 @@
 body {
   background-color: #666362;
+  font-family: futura;
   color: orange;
   border: 3em ridge orange;
   border-radius: 4em;
@@ -9,34 +10,26 @@ body {
   margin: 0% 30% 5% 30%;
   text-align: center; }
 
-#profile_box {
-  position: relative;
-  margin-top: 100px;
-  width: 100%;
-  padding-top: 100px; }
-
-#profile-info {
-  position: absolute;
-  top: -85px;
-  width: 100%;
-  z-index: 2;
-  text-align: center; }
-
 .project_links {
   text-align: center;
   padding: auto 5%; }
   .project_links a {
-    color: orange; }
+    color: orange;
+    text-decoration: none; }
 
 .link_contacts {
   text-align: center;
   padding: 5%; }
   .link_contacts a {
-    color: orange; }
+    color: orange;
+    text-decoration: none; }
 
 footer {
   text-align: center; }
 
 /* Media Queries */
+@media screen and (max-device-width: 575px) {
+  .project_links > img {
+    display: block; } }
 
 /*# sourceMappingURL=main.css.map */
