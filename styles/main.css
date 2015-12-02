@@ -1,29 +1,19 @@
 body {
-  background-color: black;
-  color: orange; }
+  background-color: #666362;
+  color: orange;
+  border: 3em ridge orange;
+  border-radius: 4em;
+  margin-bottom: 1em; }
 
 .name_header {
   margin: 0% 30% 5% 30%;
-  font-family: Bodini;
-  text-align: center; }
-
-#profile-bg {
-  position: fixed;
-  left: 0;
-  top: 40px;
-  width: 100%;
-  height: 500px;
-  background-size: 100%;
-  background-position: 10% 20%;
   text-align: center; }
 
 #profile_box {
   position: relative;
   margin-top: 100px;
   width: 100%;
-  background-color: black;
-  box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.4);
-  padding-top: 200px; }
+  padding-top: 100px; }
 
 #profile-info {
   position: absolute;
@@ -32,50 +22,21 @@ body {
   z-index: 2;
   text-align: center; }
 
-#profile-image {
-  display: block;
-  border-radius: 150px;
-  border: 1px solid #fff;
-  width: 200px;
-  height: 200px;
-  margin: 30px auto 0;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7); }
+.project_links {
+  text-align: center;
+  padding: auto 5%; }
+  .project_links a {
+    color: orange; }
 
-.coming_soon {
-  color: orange; }
+.link_contacts {
+  text-align: center;
+  padding: 5%; }
+  .link_contacts a {
+    color: orange; }
 
 footer {
   text-align: center; }
-  footer .link_contacts {
-    padding: 5%; }
-    footer .link_contacts a {
-      color: orange; }
 
 /* Media Queries */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  #project_boxes {
-    margin: 25em auto; }
-    #project_boxes .section_header {
-      font-family: Bodini; }
-    #project_boxes img {
-      height: 250px;
-      width: 100px; } }
-@media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
-  #project_boxes {
-    margin: 25em auto; }
-    #project_boxes .section_header {
-      font-family: Bodini; }
-    #project_boxes img {
-      height: 350px;
-      width: 200px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  #project_boxes {
-    margin: 5% 10% 5% 34%; }
-    #project_boxes .section_header {
-      font-family: Bodini;
-      margin: 5% 30% 0% 30%; }
-    #project_boxes img {
-      height: 450px;
-      width: 300px; } }
 
 /*# sourceMappingURL=main.css.map */
