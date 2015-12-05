@@ -1,14 +1,49 @@
-body {
-  background-color: #666362;
+.border {
   font-family: futura;
-  color: orange;
-  border: 3em ridge orange;
+  color: #FFFF66;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border: 3em ridge #FFFF66;
   border-radius: 4em;
-  margin-top: 1em;
-  margin-bottom: 1em; }
+  background-color: #FF0000; }
+
+.border:before {
+  content: '';
+  position: absolute;
+  left: -5%;
+  width: 110%;
+  height: 80%;
+  background-color: #FFFF66;
+  /* fallback */
+  background-color: #FFFF66;
+  opacity: 0.2;
+  top: 0;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  transform: rotate(30deg); }
+
+.border:after {
+  content: '';
+  position: absolute;
+  left: -5%;
+  width: 110%;
+  height: 80%;
+  color: orange;
+  background-color: #FFFF66;
+  /* fallback */
+  background-color: #FFFF66;
+  opacity: 0.3;
+  top: 0;
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  transform: rotate(-30deg); }
 
 .name_header {
-  text-align: center; }
+  text-align: center;
+  margin-top: 3em; }
 
 .project_links {
   text-align: center;
@@ -17,7 +52,7 @@ body {
   .project_links .each_project {
     display: inline; }
     .project_links .each_project a {
-      color: orange;
+      color: #FFFF66;
       text-decoration: none; }
 
 div.beerTynder_desc {
@@ -39,49 +74,20 @@ div.downthemlbs_desc {
   margin-top: 1em; }
 
 .BeerTynder:hover div.beerTynder_desc {
-  display: block;
-  /*
-  	.OpenMicNight {
-  		visibility: hidden;
-  		display: inline;
-  	}
-  	.DownThemLBs {
-  		visibility: hidden;
-  		display: inline;
-  	}
-  	*/ }
+  display: block; }
 
 .OpenMicNight:hover div.openmicnight_desc {
-  display: block;
-  /*
-  	.BeerTynder {
-  		visibility: hidden;
-  		display: inline;
-  	}
-  	.DownThemLBs {
-  		visibility: hidden;
-  		display: inline;
-  	}
-  	*/ }
+  display: block; }
 
 .DownThemLBs:hover div.downthemlbs_desc {
-  display: block;
-  /*
-  	.OpenMicNight {
-  		visibility: hidden;
-  		display: inline;
-  	}
-  	.BeerTynder {
-  		visibility: hidden;
-  		display: inline;
-  	}
-  	*/ }
+  display: block; }
 
 .link_contacts {
   text-align: center;
+  margin-bottom: -1em;
   padding: 5%; }
   .link_contacts a {
-    color: orange;
+    color: #FFFF66;
     text-decoration: none; }
 
 footer {
@@ -89,8 +95,20 @@ footer {
 
 /* Media Queries */
 @media screen and (max-device-width: 575px) {
+  font-size: medium;
+  a {
+    font-size: medium; }
+
   .each_project a img {
     display: block;
-    margin: 5% auto; } }
+    margin: 5% auto; }
+
+  .link_contacts {
+    text-align: center;
+    padding: 5%; }
+    .link_contacts a {
+      color: #FFFF66;
+      font-size: 3em;
+      text-decoration: none; } }
 
 /*# sourceMappingURL=main.css.map */
