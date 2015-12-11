@@ -1,114 +1,108 @@
-.border {
-  font-family: futura;
-  color: #FFFF66;
+/**************** Header ***************/
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent; }
+
+.head_container {
+  max-width: 960px;
+  margin: 0 auto; }
+
+/*************** Body *****************/
+.module:last-child {
+  margin-bottom: 0; }
+
+.module h1 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px; }
+
+.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300; }
+
+.module p:last-child {
+  margin-bottom: 0; }
+
+.module.content {
+  padding: 40px 0; }
+
+.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.module.parallax h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 62px;
+  line-height: 600px;
+  font-weight: 700;
   text-align: center;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  border: 3em ridge #FFFF66;
-  border-radius: 4em;
-  background-color: #FF0000; }
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
 
-.border:before {
-  content: '';
-  position: absolute;
-  left: -5%;
-  width: 110%;
-  height: 80%;
-  background-color: #FFFF66;
-  /* fallback */
-  background-color: #FFFF66;
-  opacity: 0.2;
-  top: 0;
-  -webkit-transform: rotate(30deg);
-  -moz-transform: rotate(30deg);
-  transform: rotate(30deg); }
-
-.border:after {
-  content: '';
-  position: absolute;
-  left: -5%;
-  width: 110%;
-  height: 80%;
-  color: orange;
-  background-color: #FFFF66;
-  /* fallback */
-  background-color: #FFFF66;
-  opacity: 0.3;
-  top: 0;
-  -webkit-transform: rotate(-30deg);
-  -moz-transform: rotate(-30deg);
-  transform: rotate(-30deg); }
-
-.name_header {
+.module.parallax h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+.module.parallax-1 {
+  margin-top: -20px;
+  background-image: url("/img/desktop.jpeg"); }
+
+.module.parallax-2 {
+  background-color: white; }
+
+@media all and (max-width: 350px) {
+  .module.parallax h2 {
+    font-size: 24px; } }
+@media all and (max-width: 600px) {
+  .module.parallax h2 {
+    font-size: 36px; } }
+.project_links {
+  text-align: center; }
+  .project_links a {
+    display: block;
+    text-decoration: none;
+    color: #9d9d9d; }
+
+.desc_border {
+  border: 1px solid #9d9d9d;
+  width: 600px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+  .desc_border h3 {
+    margin-bottom: 15px; }
+
+.openmic {
   margin-top: 3em; }
 
-.project_links {
-  text-align: center;
-  margin-top: 2em;
-  padding: 3%; }
-  .project_links .each_project {
-    display: inline; }
-    .project_links .each_project a {
-      color: #FFFF66;
-      text-decoration: none; }
+.beertynder {
+  margin-top: 3em; }
 
-div.beerTynder_desc {
-  display: none;
-  text-align: center;
-  border: 2px dotted orange;
-  margin-top: 1em; }
+.finalcap {
+  margin-top: 3em; }
 
-div.openmicnight_desc {
-  display: none;
-  text-align: center;
-  border: 2px dotted orange;
-  margin-top: 1em; }
-
-div.downthemlbs_desc {
-  display: none;
-  text-align: center;
-  border: 2px dotted orange;
-  margin-top: 1em; }
-
-.BeerTynder:hover div.beerTynder_desc {
-  display: block; }
-
-.OpenMicNight:hover div.openmicnight_desc {
-  display: block; }
-
-.DownThemLBs:hover div.downthemlbs_desc {
-  display: block; }
-
+/************* Footer ************/
 .link_contacts {
   text-align: center;
-  margin-bottom: -1em;
-  padding: 5%; }
+  margin-top: 3em; }
   .link_contacts a {
-    color: #FFFF66;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #9d9d9d; }
 
 footer {
   text-align: center; }
-
-/* Media Queries */
-@media screen and (max-device-width: 575px) {
-  font-size: medium;
-  a {
-    font-size: medium; }
-
-  .each_project a img {
-    display: block;
-    margin: 5% auto; }
-
-  .link_contacts {
-    text-align: center;
-    padding: 5%; }
-    .link_contacts a {
-      color: #FFFF66;
-      font-size: 3em;
-      text-decoration: none; } }
 
 /*# sourceMappingURL=main.css.map */
