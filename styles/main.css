@@ -13,6 +13,7 @@
     color: rgba(255, 255, 255, 0.8); }
 
 /*************** Body *****************/
+/******scrolling***********/
 .module:last-child {
   margin-bottom: 0; }
 
@@ -59,17 +60,29 @@
 
 .module.parallax-1 {
   margin-top: -20px;
-  background-image: url("/img/desktop.jpeg"); }
+  background-image: url("/img/desktop.jpeg");
+  max-width: 100%;
+  min-width: 300px;
+  height: auto; }
 
 .module.parallax-2 {
-  background-image: url("/img/typing.jpeg"); }
+  background-image: url("/img/typing.jpeg");
+  max-width: 100%;
+  min-width: 300px;
+  height: auto; }
 
 .module.parallax-3 {
-  background-image: url("/img/contact.jpeg"); }
+  background-image: url("/img/contact.jpeg");
+  max-width: 100%;
+  min-width: 300px;
+  height: auto; }
 
+/******* summary/bio *******/
 .linked_summary {
-  text-align: center; }
+  text-align: center;
+  font-size: 1em; }
 
+/******* projects *******/
 .project_links {
   text-align: center; }
   .project_links a {
@@ -79,10 +92,8 @@
 
 .desc_border {
   border: 1px solid #9d9d9d;
-  width: 600px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 3%;
+  width: 90%;
+  margin: 3% 5% 3% 5%;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
@@ -90,7 +101,7 @@
     margin-bottom: 15px;
     font-size: 1.5em; }
   .desc_border p {
-    font-size: 1em; }
+    font-size: 2em; }
 
 .openmic {
   margin-top: 3em; }
@@ -107,6 +118,7 @@
   margin-top: 3em; }
   .link_contacts a {
     text-decoration: none;
+    font-size: 1em;
     color: #9d9d9d; }
 
 footer {
@@ -136,7 +148,9 @@ footer {
     height: auto; }
 
   .desc_border {
-    display: block; }
+    display: block;
+    width: 90%;
+    margin: 3% 5% 3% 5%; }
 
   .project_pics {
     margin-top: 8%; }
@@ -165,19 +179,27 @@ footer {
   .desc_border {
     display: block;
     width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%; }
+    margin: 3% 5% 3% 5%; }
 
   .project_pics {
     margin-top: 8%; }
 
   .link_contacts a {
     font-size: 30px; } }
+/*
 @media all and (min-width: 1020px) {
-  .desc_border h3 {
-    font-size: 200%; }
-  .desc_border p {
-    font-size: 200%; } }
+  .desc_border {
+  	h3 {
+  		font-size: 200%;
+  	}
+  	p {
+  		font-size: 200%;
+  	}
+  }
+  .linked_summary {
+		font-size: 200%;
+	}
+}
+*/
 
 /*# sourceMappingURL=main.css.map */
