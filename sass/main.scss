@@ -6,6 +6,19 @@
   border-color: transparent;
 }
 
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  text-shadow: 2px 2px #777;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+  color: #777;
+}
+
+ul.navbar-right li a{
+	font-size: 2em;
+}
+
 .head_container {
   max-width: 960px;
   margin: 0 auto;
@@ -30,7 +43,7 @@
 }
 .module p {
   margin-bottom: 40px;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 300;
 }
 .module p:last-child {
@@ -41,7 +54,7 @@
 }
 .module.parallax {
   height: 600px;
-  background-position: 50% 50%;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -65,24 +78,24 @@
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .module.parallax-1 {
-	margin-top: -20px;
-  background-image: url("/img/desktop.jpeg");
+  margin-top: -20px;
+  background: url("/img/desktop.jpeg");
   max-width: 100%;
-  min-width: 300px;
-  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .module.parallax-2 {
-  background-image: url("/img/typing.jpeg");
+  background: url("/img/typing.jpeg");
   max-width: 100%;
-  min-width: 300px;
-  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .module.parallax-3 {
-  background-image: url("/img/contact.jpeg");
+  background: url("/img/contact.jpeg");
   max-width: 100%;
-  min-width: 300px;
-  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
     /******* summary/bio *******/
 .linked_summary {
@@ -150,89 +163,9 @@ footer {
 /********** Media Queries **********/
 
 @media all and (max-width: 350px) {
-	body {
-		font-size: 200%;
-	}
 
-  .module.parallax h2 {
-    font-size: 24px;
-  }
-  .module.parallax-1 {
-  	max-width: 100%;
-    min-width: 300px;
-    height: auto;
-  }
-  .module.parallax-2 {
-  	max-width: 100%;
-    min-width: 300px;
-    height: auto;
-  }
-  .module.parallax-3 {
-  	max-width: 100%;
-    min-width: 300px;
-    height: auto;
-  }
-  .desc_border {
-  	display: block;
-  	width: 90%;
-  	margin: 3% 5% 3% 5%;
-  }
-  .project_pics {
-  	margin-top: 8%;
-  }
-
-  .link_contacts {
-		a {
-			font-size: 20px;
-		}
-	}
 }
 
 @media all and (max-width: 600px) {
-  .module.parallax h2 {
-    font-size: 36px;
-  }
-  .module.parallax-1 {
-  	max-width: 100%;
-    min-width: 300px;
-    height: auto;
-  }
-  .module.parallax-2 {
-  	max-width: 100%;
-    min-width: 300px;
-    height: auto;
-  }
-  .module.parallax-3 {
-  	max-width: 100%;
-    min-width: 300px;
-    height: auto;
-  }
-  .desc_border {
-  	display: block;
-  	width: 90%;
-		margin: 3% 5% 3% 5%;
-  }
-  .project_pics {
-  	margin-top: 8%;
-  }
-  .link_contacts {
-		a {
-			font-size: 30px;
-		}
-	}
+
 }
-/*
-@media all and (min-width: 1020px) {
-  .desc_border {
-  	h3 {
-  		font-size: 200%;
-  	}
-  	p {
-  		font-size: 200%;
-  	}
-  }
-  .linked_summary {
-		font-size: 200%;
-	}
-}
-*/
