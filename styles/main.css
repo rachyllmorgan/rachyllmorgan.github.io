@@ -87,7 +87,10 @@
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
   .desc_border h3 {
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    font-size: 1.5em; }
+  .desc_border p {
+    font-size: 1em; }
 
 .openmic {
   margin-top: 3em; }
@@ -111,39 +114,53 @@ footer {
 
 /********** Media Queries **********/
 @media all and (max-width: 350px) {
+  body {
+    font-size: 200%; }
+
   .module.parallax h2 {
     font-size: 24px; }
 
   .module.parallax-1 {
-    width: 100%; }
+    max-width: 100%;
+    min-width: 300px;
+    height: auto; }
 
   .module.parallax-2 {
-    width: 100%; }
+    max-width: 100%;
+    min-width: 300px;
+    height: auto; }
 
   .module.parallax-3 {
-    width: 100%; }
+    max-width: 100%;
+    min-width: 300px;
+    height: auto; }
 
   .desc_border {
-    display: block;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%; }
+    display: block; }
 
   .project_pics {
-    margin-top: 8%; } }
+    margin-top: 8%; }
+
+  .link_contacts a {
+    font-size: 20px; } }
 @media all and (max-width: 600px) {
   .module.parallax h2 {
     font-size: 36px; }
 
   .module.parallax-1 {
-    width: 100%; }
+    max-width: 100%;
+    min-width: 300px;
+    height: auto; }
 
   .module.parallax-2 {
-    width: 100%; }
+    max-width: 100%;
+    min-width: 300px;
+    height: auto; }
 
   .module.parallax-3 {
-    width: 100%; }
+    max-width: 100%;
+    min-width: 300px;
+    height: auto; }
 
   .desc_border {
     display: block;
@@ -153,6 +170,14 @@ footer {
     margin-top: 3%; }
 
   .project_pics {
-    margin-top: 8%; } }
+    margin-top: 8%; }
+
+  .link_contacts a {
+    font-size: 30px; } }
+@media all and (min-width: 1020px) {
+  .desc_border h3 {
+    font-size: 200%; }
+  .desc_border p {
+    font-size: 200%; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -101,6 +101,11 @@
 
 	h3 {
 		margin-bottom: 15px;
+		font-size: 1.5em;
+	}
+
+	p {
+		font-size: 1em;
 	}
 }
 
@@ -135,28 +140,40 @@ footer {
 /********** Media Queries **********/
 
 @media all and (max-width: 350px) {
+	body {
+		font-size: 200%;
+	}
+
   .module.parallax h2 {
     font-size: 24px;
   }
   .module.parallax-1 {
-  	width: 100%;
+  	max-width: 100%;
+    min-width: 300px;
+    height: auto;
   }
   .module.parallax-2 {
-  	width: 100%;
+  	max-width: 100%;
+    min-width: 300px;
+    height: auto;
   }
   .module.parallax-3 {
-  	width: 100%;
+  	max-width: 100%;
+    min-width: 300px;
+    height: auto;
   }
   .desc_border {
   	display: block;
-  	width: 90%;
- 		margin-left: 5%;
-		margin-right: 5%;
-		margin-top: 3%;
   }
   .project_pics {
   	margin-top: 8%;
   }
+
+  .link_contacts {
+		a {
+			font-size: 20px;
+		}
+	}
 }
 
 @media all and (max-width: 600px) {
@@ -164,13 +181,19 @@ footer {
     font-size: 36px;
   }
   .module.parallax-1 {
-  	width: 100%;
+  	max-width: 100%;
+    min-width: 300px;
+    height: auto;
   }
   .module.parallax-2 {
-  	width: 100%;
+  	max-width: 100%;
+    min-width: 300px;
+    height: auto;
   }
   .module.parallax-3 {
-  	width: 100%;
+  	max-width: 100%;
+    min-width: 300px;
+    height: auto;
   }
   .desc_border {
   	display: block;
@@ -181,5 +204,20 @@ footer {
   }
   .project_pics {
   	margin-top: 8%;
+  }
+  .link_contacts {
+		a {
+			font-size: 30px;
+		}
+	}
+}
+@media all and (min-width: 1020px) {
+  .desc_border {
+  	h3 {
+  		font-size: 200%;
+  	}
+  	p {
+  		font-size: 200%;
+  	}
   }
 }
