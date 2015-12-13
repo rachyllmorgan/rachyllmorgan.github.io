@@ -97,7 +97,7 @@ ul.navbar-right li a{
     /******* Summary/Bio *******/
 .linked_summary {
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 2em;
 }
 	/******* projects *******/
 .project_links{
@@ -125,6 +125,9 @@ ul.navbar-right li a{
 	p {
 		font-size: 2em;
 	}
+	a {
+		font-size: 2em;
+	}
 }
 .openmic {
 	margin-top: 3em;
@@ -145,7 +148,7 @@ ul.navbar-right li a{
 
 	img + a {
 		color: #9d9d9d;
-		font-size: 1.1em;
+		font-size: 2em;
 		margin-right: 1em;
 	}
 }
@@ -156,10 +159,22 @@ footer {
 /********** Media Queries **********/
 
 @media all and (min-width: 1000px) {
+	.linked_summary {
+		font-size: 1.2em;
+	}
 	.row {
 		.desc_border {
 			width: 600px;
 			margin-top: 10em;
+
+			a {
+				font-size: 1.2em;
+			}
+		}
+	}
+	.link_contacts {
+		img + a {
+			font-size: 1.2em;
 		}
 	}
 }
