@@ -27,13 +27,6 @@ ul.navbar-right li a {
 .module:last-child {
   margin-bottom: 0; }
 
-/*
-.module h1 {
-  margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
-  font-size: 30px;
-}
-*/
 .module p {
   margin-bottom: 40px;
   font-size: 1em;
@@ -92,6 +85,10 @@ ul.navbar-right li a {
 /******* Summary/Bio *******/
 .linked_summary {
   text-align: center;
+  font-size: 2em; }
+
+.tool_shelf li {
+  display: inline-block;
   font-size: 2em; }
 
 /******* projects *******/
@@ -162,6 +159,10 @@ footer {
     margin-top: 10em; }
     .row .desc_border a {
       font-size: 1.2em; }
+
+  .tool_shelf li {
+    font-size: 3em;
+    margin: auto .3em; }
 
   .link_contacts img + a {
     font-size: 1.2em; } }
