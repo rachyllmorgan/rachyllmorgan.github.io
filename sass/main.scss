@@ -79,20 +79,20 @@ ul.navbar-right li a{
   background: url("/img/desktop.jpeg");
   max-width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .module.parallax-2 {
   background: url("/img/typing.jpeg");
   max-width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 .module.parallax-3 {
   background: url("/img/contact.jpeg");
-  background-size: contain;
   max-width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
     /******* Summary/Bio *******/
 .linked_summary {
