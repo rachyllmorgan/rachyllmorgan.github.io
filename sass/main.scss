@@ -97,7 +97,7 @@ ul.navbar-right li a{
     /******* Summary/Bio *******/
 .linked_summary {
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.3em;
 }
 	/******* projects *******/
 .project_links{
@@ -155,9 +155,11 @@ footer {
 
 /********** Media Queries **********/
 
-@media all and (max-width: 350px) {
-
-}
-@media all and (max-width: 600px) {
-
+@media all and (min-width: 1000px) {
+	.row {
+		.desc_border {
+			width: 600px;
+			margin-top: 10em;
+		}
+	}
 }
