@@ -75,19 +75,19 @@ ul.navbar-right li a {
   background: url("/img/desktop.jpeg");
   max-width: 100%;
   background-size: cover;
-  background-attachment: fixed; }
+  background-repeat: no-repeat; }
 
 .module.parallax-2 {
   background: url("/img/typing.jpeg");
   max-width: 100%;
   background-size: cover;
-  background-attachment: fixed; }
+  background-repeat: no-repeat; }
 
 .module.parallax-3 {
   background: url("/img/contact.jpeg");
   max-width: 100%;
   background-size: cover;
-  background-attachment: fixed; }
+  background-repeat: no-repeat; }
 
 /******* Summary/Bio *******/
 .linked_summary {
@@ -142,6 +142,18 @@ footer {
 
 /********** Media Queries **********/
 @media all and (min-width: 1000px) {
+  .module.parallax-1 {
+    background-size: cover;
+    background-attachment: fixed; }
+
+  .module.parallax-2 {
+    background-size: cover;
+    background-attachment: fixed; }
+
+  .module.parallax-3 {
+    background-size: cover;
+    background-attachment: fixed; }
+
   .linked_summary {
     font-size: 1.2em; }
 
