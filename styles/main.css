@@ -101,6 +101,7 @@ ul.navbar-right li a {
 
 .desc_border {
   border: 1px solid #9d9d9d;
+  border-radius: 1.2em;
   width: 90%;
   margin: 3% 5% 3% 5%;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -123,6 +124,16 @@ ul.navbar-right li a {
 
 .finalcap {
   margin-top: 3em; }
+
+.border_prac:after {
+  border-bottom: 1px solid grey;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 3em;
+  -webkit-box-shadow: 0 8px 6px -6px #222;
+  -moz-box-shadow: 0 8px 6px -6px #222;
+  box-shadow: 0 8px 6px -6px #222; }
 
 /************ Footer ************/
 .link_contacts {
@@ -165,6 +176,16 @@ footer {
     margin: auto .3em; }
 
   .link_contacts img + a {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+
+  .beer_phone {
+    margin-left: 15%; }
+
+  .finalcap {
+    margin-top: -1em; }
+
+  .mac_pic {
+    margin-top: 12em;
+    width: 460px; } }
 
 /*# sourceMappingURL=main.css.map */
