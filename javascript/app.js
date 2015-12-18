@@ -1,6 +1,4 @@
 $(document).ready(function() {
-  // window.onload = function (){
-  //   var success = new PDFObject({ url: "sample.pdf" }).embed();
-  // };
-
+	$( window ).scroll(function() {
+		$(".project_pics").fadeIn("slow");
 });
