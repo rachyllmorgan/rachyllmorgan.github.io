@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/animate.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <title></title>
   </head>
@@ -31,7 +32,7 @@
         </div><!-- /.container-fluid -->
       </nav>
       <div class="head_container">
-        <h2><a name="home">Rachel Morgan</a></h2>
+        <h2><a name="home" class="wow pulse">Rachel Morgan</a></h2>
       </div>
     </header>
 
@@ -62,7 +63,7 @@
    
     <section class="module parallax parallax-2">
       <div class="head_container">
-        <h2><a name="projects">Projects</a></h2>
+        <h2><a name="projects" class="wow pulse" data-wow-delay="1s">Projects</a></h2>
       </div>
     </section>
 
@@ -77,13 +78,13 @@
             <img src="img/icons/black-github-24.png">
             <a href="https://github.com/rachyllmorgan/OpenMicNight" target="_blank">GitHub</a>
           </div>
-          <div class="col-md-4 project_pics">
-            <a href="https://openmicnight.firebaseapp.com/#/app/home" target="_blank"><img src="img/Projects/OpenMicNight/OpenMicIphone.png" width="350" height="700"></a>
+          <div class="col-md-4">
+            <a href="https://openmicnight.firebaseapp.com/#/app/home" target="_blank"><img src="img/Projects/OpenMicNight/OpenMicIphone.png" width="350" height="700" class="wow bounceInRight" data-wow-delay=".5s"></a>
           </div>
         </div>
         <div class="beertynder row border_prac">
           <div class="col-md-4">
-            <a href="https://beerTynder.firebaseapp.com/#/" target="_blank"><img class ="project_pics beer_phone" src="img/Projects/BeerTynder/beerTynderIphone.png" width="350" height="700"></a>
+            <a href="https://beerTynder.firebaseapp.com/#/" target="_blank"><img class ="project_pics beer_phone wow bounceInLeft" src="img/Projects/BeerTynder/beerTynderIphone.png" width="350" height="700" data-wow-delay=".5s"></a>
           </div>
           <div class="col-md-8 desc_border">
             <h2>BeerTynder</h2>
@@ -104,14 +105,14 @@
             <a href="https://github.com/rachyllmorgan/DWTL" target="_blank">Watch my progress @ GitHub</a>
           </div>
           <div class="col-md-4">
-            <a href="https://github.com/rachyllmorgan/DWTL" target="_blank"><img class ="project_pics mac_pic" src="img/Projects/comingsoononMacPro.png" width="700"></a>
+            <a href="https://github.com/rachyllmorgan/DWTL" target="_blank"><img class ="project_pics mac_pic wow bounceInRight" src="img/Projects/comingsoononMacPro.png" width="700" data-wow-delay=".5s"></a>
           </div>
         </div>
     </section>
 
     <section class="module parallax parallax-3">
       <div class="head_container">
-        <h2><a name="contact">Contact Me</a></h2>
+        <h2><a name="contact" class="wow pulse" data-wow-delay="1s">Contact Me</a></h2>
       </div>
     </section>
 
@@ -129,5 +130,6 @@
   </body>
   <script type="text/javascript" data-main="javascript/app" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="lib/bower_components/wow/dist/wow.min.js"></script>
   <script type="text/javascript" src="javascript/app.js"></script>
 </html>
