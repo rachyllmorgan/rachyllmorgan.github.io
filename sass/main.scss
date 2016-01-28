@@ -55,7 +55,6 @@ ul.navbar-right li a{
   line-height: 600px;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .module.parallax h3 {
@@ -64,7 +63,6 @@ ul.navbar-right li a{
   line-height: 600px;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .module.parallax-1 {
@@ -100,6 +98,7 @@ ul.navbar-right li a{
 .tool_shelf li {
 	display: inline-block;
 	font-size: 2em;
+	padding-bottom: .5em;
 }
 	/******* projects *******/
 .project_links{
@@ -113,12 +112,12 @@ ul.navbar-right li a{
 .desc_border {
 	border: 1px solid #9d9d9d;
 	border-radius: 1.2em;
-	width: 90%;
+	width: 100%;
 	margin: 3% 5% 3% 5%;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	padding-bottom: 1em;
+	padding: .5em;
 
 	h3 {
 		margin-bottom: 15px;
