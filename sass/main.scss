@@ -1,0 +1,218 @@
+/**************** Header ***************/
+
+.navbar {
+	background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  text-shadow: 2px 2px #777;
+}
+.navbar-default .navbar-nav>li>a:active {
+  color: #777;
+}
+ul.navbar-right li a{
+	font-size: 2em;
+}
+.head_container {
+  max-width: 960px;
+  margin: 0 auto;
+  	a {
+			display: block;
+			text-decoration: none;
+			color: rgba(255, 255, 255, 0.8);
+		}
+}
+
+/*************** Body *****************/
+
+      /******* Scrolling *******/
+.module:last-child {
+  margin-bottom: 0;
+}
+.module p {
+  margin-bottom: 40px;
+  font-size: 1em;
+  font-weight: 300;
+}
+.module p:last-child {
+  margin-bottom: 0;
+}
+.module.content {
+  padding: 40px 0;
+}
+.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.module.parallax h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 62px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.module.parallax h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.module.parallax-1 {
+  margin-top: -20px;
+  background: url("/img/desktop.jpeg");
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.module.parallax-2 {
+  background: url("/img/typing.jpeg");
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.module.parallax-3 {
+  background: url("/img/contact.jpeg");
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+    /******* Summary/Bio *******/
+
+.prof_pic img{
+	border: 1px inset #9d9d9d;
+	border-radius: 1em;
+}
+.linked_summary {
+	text-align: center;
+	font-size: 2em;
+}
+.tool_shelf li {
+	display: inline-block;
+	font-size: 2em;
+	padding-bottom: .5em;
+}
+	/******* projects *******/
+.project_links{
+	text-align: center;
+	a {
+		display: block;
+		text-decoration: none;
+		color: #9d9d9d;
+	}
+}
+.desc_border {
+	border: 1px solid #9d9d9d;
+	border-radius: 1.2em;
+	width: 100%;
+	margin: 3% 5% 3% 5%;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	padding: .5em;
+
+	h3 {
+		margin-bottom: 15px;
+		font-size: 1.5em;
+	}
+
+	p {
+		font-size: 2em;
+	}
+	a {
+		font-size: 2em;
+	}
+}
+.openmic {
+	margin-top: 3em;
+}
+.beertynder {
+	margin-top: 3em;
+}
+.finalcap {
+	margin-top: 3em;
+}
+.border_prac:after {
+  border-bottom:1px solid grey;
+  width:60%;
+  display:block;
+  margin: 0 auto;
+	padding-bottom: 3em;
+	-webkit-box-shadow: 0 8px 6px -6px #222;
+  -moz-box-shadow: 0 8px 6px -6px #222;
+  box-shadow: 0 8px 6px -6px #222;
+}
+
+/************ Footer ************/
+
+.link_contacts {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+	img + a {
+		color: #9d9d9d;
+		font-size: 2em;
+		margin-right: 1em;
+	}
+}
+footer {
+	text-align: center;
+}
+
+/********** Media Queries **********/
+
+@media all and (min-width: 1000px) {
+	.module.parallax-1 {
+	  background-size: cover;
+	  background-attachment: fixed;
+	}
+	.module.parallax-2 {
+	  background-size: cover;
+	  background-attachment: fixed;
+	}
+	.module.parallax-3 {
+	  background-size: cover;
+	  background-attachment: fixed;
+	}
+	.linked_summary {
+		font-size: 1.6em;
+	}
+	.row {
+		.desc_border {
+			width: 600px;
+			margin-top: 10em;
+
+			a {
+				font-size: 1.2em;
+			}
+		}
+	}
+	.tool_shelf li {
+		font-size: 3em;
+		margin: auto .3em;
+	}
+	.link_contacts {
+		img + a {
+			font-size: 1.2em;
+		}
+	}
+	.beer_phone {
+		margin-left: 15%;
+	}
+	.finalcap	{
+		margin-top: -1em;
+	}
+	.mac_pic {
+		margin-top: 12em;
+		width: 460px;
+	}
+}
